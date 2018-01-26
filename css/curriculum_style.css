@@ -1,0 +1,82 @@
+/*
+ * @title: CSS Curriculum Vitae Alejandro Ruiz
+ * @uthor: Alejandro Ruiz
+ *
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+* {
+	font-family: Ubuntu;
+	padding: 0px;
+	border: 0px;
+	margin: 0px;
+}
+
+header, section {
+	width: 80%;
+	margin: 0 auto;
+	border: 2px solid #888;
+	margin-bottom: 15px;
+	padding: 10px;
+}
+
+article {
+	margin-bottom: 10px;
+}
+
+h1 {
+	background-color: #c5ebf0;
+	color: #FFF;
+}
+
+h4 {
+	color: #c5ebf0;
+}
+
+.datos_personales {}
+
+.list_datos {
+	text-align: center;
+}
+
+.tit_dato {
+  display: none;
+}
+
+.dato_pers {
+  display: inline-block;
+}
+
+.cont_foto_curriculum {
+	display: inline-block;
+	vertical-align: middle;
+	width: 32%;
+}
+
+.ima_cv {
+	width: 100%;
+}
+
+.resumen {
+	display: inline-block;
+	vertical-align: middle;
+	width: 64%;
+	margin-left: 2%;
+}
+
+.resumen p {
+	font-size: 1.2em;
+	margin-bottom: 10px;
+}
+
+.conocimiento {
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.cont_exp_lab ul li,
+.cont_estudios ul li {
+	margin-left: 30px;
+	padding-bottom: 15px;
+}
