@@ -4,6 +4,12 @@
  *
  */
 
+ /*
+  * Colores:
+  * Azul Claro: c5ebf0;
+  * Gris: #888;
+  */
+
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
 * {
@@ -27,6 +33,16 @@ article {
 
 h1 {
 	background-color: #c5ebf0;
+}
+
+.link_titulo {
+	text-decoration: none;
+	color: #FFF;
+	display: inline-block;
+}
+
+header h1 p {
+	display: inline-block;
 	color: #FFF;
 }
 
@@ -44,9 +60,16 @@ h4 {
   display: none;
 }
 
-.dato_pers {
+.dato_pers, .dato_ultimo {
   display: inline-block;
+  padding-left: 6px;
+  padding-right: 6px;
+  border-collapse: collapse;
+  border-right: 2px solid #888;
 }
+
+.dato_ultimo {
+	border: 0px; }
 
 .cont_foto_curriculum {
 	display: inline-block;
@@ -68,6 +91,16 @@ h4 {
 .resumen p {
 	font-size: 1.2em;
 	margin-bottom: 10px;
+}
+
+.link_text_pf {
+	text-decoration: none;
+	color: #000;
+	font-weight: bolder;
+}
+
+.link_text_pf:hover {
+	color: #CCC;
 }
 
 .conocimiento {

@@ -1,0 +1,124 @@
+/*
+ * @title: CSS Portfolio Alejandro Ruiz
+ * @uthor: Alejandro Ruiz
+ *
+ */
+
+ /*
+  * Colores:
+  * Azul Claro: c5ebf0;
+  * Gris: #888;
+  */
+
+  @import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+* {
+	font-family: Ubuntu;
+	padding: 0px;
+	border: 0px;
+	margin: 0px;
+}
+
+header {
+	width: 80%;
+	margin: 0 auto;
+	border: 2px solid #888;
+	margin-bottom: 15px;
+	padding: 10px;
+}
+
+h1 {
+	background-color: #c5ebf0;
+}
+
+.link_titulo {
+	text-decoration: none;
+	color: #FFF;
+	display: inline-block;
+}
+
+header h1 p {
+	display: inline-block;
+	color: #FFF;
+}
+
+section {
+	border-bottom: 2px solid #CCC;
+	padding: 20px;
+}
+
+article {
+	width: 320px;
+	border: 2px solid #AAA;
+	margin: 10px;
+	padding: 10px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+h2 {
+	margin-bottom: 15px;
+}
+
+/* ------- Webs ------ */
+
+article:hover {
+	border: 2px solid #888;
+}
+
+.link_item {
+	text-decoration: none;
+	color: #AAA;
+}
+
+.link_item:hover {
+	text-decoration: none;
+	color: #000;
+}
+
+.ima_item {
+	width: 220px;
+	margin-left: 50px;
+}
+
+.list_tech {
+	text-align: center;
+	list-style: none;
+	margin-top: 15px;
+}
+
+.item_tech {
+	display: inline-block;
+}
+
+.ico_tech {
+	height: 25px;
+}
+
+/* ------- Logos ------ */
+.logos .list_tech {
+	text-align: left;
+}
+
+.list_logo {
+	text-align: center;
+	list-style: none;
+	margin-top: 15px;
+}
+
+.item_logo {
+	display: inline-block;
+	margin: 0px 10px;
+}
+
+.ima_logo {
+	max-width: 220px;
+	vertical-align: middle;
+}
+
+/* ------- Logos ------ */
+
+.ima_info3d {
+	max-width: 520px;
+	max-height: 220px
+}
