@@ -79,6 +79,7 @@ h4 {
 
 .ima_cv {
 	width: 100%;
+	border-right: 6px solid #c5ebf0;
 }
 
 .resumen {
@@ -112,4 +113,24 @@ h4 {
 .cont_estudios ul li {
 	margin-left: 30px;
 	padding-bottom: 15px;
+}
+
+/* Tablets y Móviles */
+@media only screen and (max-width: 620px) {
+	
+	.titulo {
+		display: block;
+	}
+
+	.cont_foto_curriculum {
+		display: block;
+		width: 100%;
+	}
+
+	.resumen {
+		display: block;
+		width: 100%;
+		margin-left: 2%;
+	}
+
 }

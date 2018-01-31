@@ -93,17 +93,18 @@ article:hover {
 
 .ico_tech {
 	height: 25px;
+	margin: 10px 5px;
 }
 
 /* ------- Logos ------ */
-.logos .list_tech {
+.logos .list_tech, .info3d .list_tech {
 	text-align: left;
 }
 
 .list_logo {
 	text-align: center;
 	list-style: none;
-	margin-top: 15px;
+	margin: 15px;
 }
 
 .item_logo {
@@ -116,9 +117,36 @@ article:hover {
 	vertical-align: middle;
 }
 
-/* ------- Logos ------ */
+/* ------- Creaciones Visuales ------ */
 
 .ima_info3d {
 	max-width: 520px;
 	max-height: 220px
+}
+
+/* Tablets y Móviles */
+@media only screen and (max-width: 620px) {
+	
+	.titulo {
+		display: block;
+	}
+
+	article {
+		width: 90%;
+		border: 2px solid #AAA;
+		margin: 10px 0px;
+		padding: 10px;
+		display: block;
+		vertical-align: top;
+	}
+
+	.ima_item {
+		width: 220px;
+		margin-left: 10%;
+	}
+
+	.ima_info3d {
+		max-width: 90%;
+		max-height: 100%
+	}
 }
