@@ -37,6 +37,10 @@ h1 {
 	display: inline-block;
 }
 
+.link_titulo:hover {
+	color: #888;
+}
+
 header h1 p {
 	display: inline-block;
 	color: #FFF;
