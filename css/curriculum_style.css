@@ -32,7 +32,7 @@ article {
 }
 
 h1 {
-	background-color: #c5ebf0;
+	background-color: #99B6B9;
 }
 
 .link_titulo {
@@ -51,7 +51,8 @@ header h1 p {
 }
 
 h4 {
-	color: #c5ebf0;
+	color: #99B6B9;
+  padding-bottom: 20px;
 }
 
 .datos_personales {}
@@ -83,7 +84,7 @@ h4 {
 
 .ima_cv {
 	width: 100%;
-	border-right: 6px solid #c5ebf0;
+	border-right: 6px solid #99B6B9;
 }
 
 .resumen {
@@ -106,6 +107,15 @@ h4 {
 
 .link_text_pf:hover {
 	color: #CCC;
+}
+
+.trabEmpr {
+  text-decoration: none;
+  color: #2F5352FF;
+}
+
+.trabEmpr:hover {
+  color: #499F99FF;
 }
 
 .conocimiento {
